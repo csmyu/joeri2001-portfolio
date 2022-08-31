@@ -9,10 +9,8 @@ const Navbar = () => {
           "fixed w-full grid place-items-center backdrop-blur-[2px] leading-6 text-base select-none"
         }
       >
-        <div
-          className={"flex w-full sm:w-3/6 lg:w-2/6 place-content-between p-5"}
-        >
-          <div className={"flex space-x-1"}>
+        <div className={"flex w-full max-w-[640px] place-content-between p-3"}>
+          <div className={"flex space-x-1 pt-2"}>
             <motion.div
               animate={{
                 scale: [1, 1.5, 1],
@@ -41,7 +39,9 @@ const Navbar = () => {
           <motion.a
             href={"https://github.com/joeri2001/"}
             target="_blank"
-            className={"hover:cursor-pointer font-thin capitalize"}
+            className={
+              "hover:cursor-pointer font-thin capitalize bg-color-accent p-2 rounded hover:bg-color-accent-pink"
+            }
             initial={{
               opacity: 0.6,
             }}
@@ -53,7 +53,7 @@ const Navbar = () => {
           </motion.a>
         </div>
       </div>
-      <div className={"pt-[3.75rem]"} />
+      <div className={"pt-[4rem]"} />
     </>
   );
 };
