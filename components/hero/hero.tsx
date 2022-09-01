@@ -5,15 +5,29 @@ const Hero = () => {
   return (
     <>
       <div
-        className={"w-full grid place-items-center leading-6 text-base mb-5"
-        }
+        className={"w-full grid place-items-center leading-6 text-base mb-5"}
       >
         <div className={"m-5"}>
-          <div className={"grid place-items-center border-color-accent-pink border-2 rounded"}>
-            <Image src={"/giphy.gif"} width={"400px"} height={"200px"} objectFit={"cover"} className={"rounded"} />
+          <div
+            className={
+              "grid place-items-center border-color-accent-pink border-2 rounded"
+            }
+          >
+            <Image
+              src={"/giphy.gif"}
+              width={"400px"}
+              height={"200px"}
+              objectFit={"cover"}
+              className={"rounded"}
+            />
           </div>
           <div className={"flex space-x-0.5"}>
-            <p className={"text-xs font-thin text-color-text"}>Source:</p><p className={"text-xs font-thin text-color-accent-blue"}><Link href={"https://giphy.com/"}>giphy.com</Link></p>
+            <p className={"text-xs font-thin text-color-text"}>Source:</p>
+            <p className={"text-xs font-thin text-color-accent-blue"}>
+              <Link href={"https://giphy.com/"} target={"_blank"}>
+                giphy.com
+              </Link>
+            </p>
           </div>
         </div>
         <div
