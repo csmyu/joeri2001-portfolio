@@ -5,15 +5,11 @@ interface Props {
 
 const ExperienceItems = (props: Props) => {
   return (
-    <div
-      className={
-        "flex justify-start sm:justify-between text-sm font-bold tracking-wide p-1"
-      }
-    >
-      <div>
+    <div className={"flex justify-between text-sm font-bold tracking-wide p-1"}>
+      <div className={"w-1/2 sm:w-1/4"}>
         <p>{props.year}</p>
       </div>
-      <div className={"ml-2"}>
+      <div className={"w-1/2 sm:w-3/4"}>
         <p>{props.text}</p>
       </div>
     </div>

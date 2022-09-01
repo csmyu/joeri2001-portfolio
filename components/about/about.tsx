@@ -42,15 +42,19 @@ const About = () => {
             <div className={"pb-5"}>
               <AboutItem title={"Experience"} />
               <div>
-                <p>(All years are 2nd millennium)</p>
+                <p className={"font-thin text-sm"}>
+                  (All years are 2nd millennium)
+                </p>
                 <div className={"divide-color-accent divide-y"}>
                   <ExperienceItems
                     year={"('01)"}
                     text={"Born in Bleiswijk, the Netherlands"}
                   />
                   <ExperienceItems
-                    year={"('20)"}
-                    text={"Graduated from GLR (Fullstack developer)"}
+                    year={"('17 - '20)"}
+                    text={
+                      "Studied at Grafisch Lyceum Rotterdam (Fullstack developer)"
+                    }
                   />
                   <ExperienceItems
                     year={"('19 - '20)"}
