@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 interface Props {
@@ -21,9 +22,13 @@ const OnTheWebItem = (props: Props) => {
           objectFit={"contain"}
         />
       </div>
-      <div className={"ml-2 text-color-accent-blue"}>
+      <motion.div
+        className={"ml-2 text-color-accent-blue"}
+        initial={{  scale: 1 }}
+        whileHover={{ scale: 1.05 }}
+      >
         <a href={props.pageUrl}>{props.text}</a>
-      </div>
+      </motion.div>
     </div>
   );
 };
