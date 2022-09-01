@@ -30,7 +30,7 @@ const About = () => {
           <div className={"py-5"}>
             <div className={"pb-5"}>
               <AboutItem
-                title={"Work"}
+                title={"About"}
                 content={
                   "I'm a fullstack web developer with a passion for building websites and web apps." +
                   "I have a knack for planning, organizing, designing, coding, problem solving and development in it's entirety." +
