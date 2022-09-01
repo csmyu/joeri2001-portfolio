@@ -9,7 +9,7 @@ const ExperienceItems = (props: Props) => {
       <div className={"w-1/2 sm:w-1/4"}>
         <p>{props.year}</p>
       </div>
-      <div className={"w-1/2 sm:w-3/4"}>
+      <div className={"w-1/2 sm:w-3/4 font-thin"}>
         <p>{props.text}</p>
       </div>
     </div>
@@ -17,3 +17,4 @@ const ExperienceItems = (props: Props) => {
 };
 
 export default ExperienceItems;
+
