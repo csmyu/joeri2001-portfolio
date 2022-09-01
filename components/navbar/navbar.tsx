@@ -6,25 +6,13 @@ const Navbar = () => {
     <>
       <div
         className={
-          "fixed w-full grid place-items-center backdrop-blur-[2px] leading-6 text-base select-none"
+          "fixed w-full grid place-items-center backdrop-blur-sm leading-6 text-base z-50"
         }
       >
         <div className={"flex w-full max-w-[640px] place-content-between p-3"}>
           <div className={"flex space-x-1 pt-2"}>
-            <motion.div
-              animate={{
-                scale: [1, 1.5, 1],
-                rotate: [-180, 0, 0],
-              }}
-            >
-              <motion.div
-                initial={{
-                  rotate: -15,
-                }}
-                whileHover={{
-                  rotate: 0,
-                }}
-              >
+            <motion.div animate={{ scale: [1, 1.5, 1], rotate: [-180, 0, 0] }}>
+              <motion.div initial={{ rotate: -15 }} whileHover={{ rotate: 0 }}>
                 <Image
                   src={"/icon.png"}
                   width={"24px"}
@@ -33,7 +21,7 @@ const Navbar = () => {
                 />
               </motion.div>
             </motion.div>
-            <p className={"capitalize"}>joeri brinks</p>
+            <p className={"capitalize font-medium"}>joeri brinks</p>
           </div>
           <div />
           <motion.a
@@ -42,12 +30,8 @@ const Navbar = () => {
             className={
               "hover:cursor-pointer font-thin capitalize bg-color-accent p-2 rounded hover:bg-color-accent-pink"
             }
-            initial={{
-              opacity: 0.6,
-            }}
-            whileHover={{
-              opacity: 1,
-            }}
+            initial={{ opacity: 0.6, scale: 1 }}
+            whileHover={{ opacity: 1, scale: 1.2 }}
           >
             GitHub
           </motion.a>
