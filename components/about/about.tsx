@@ -32,8 +32,8 @@ const About = () => {
               <AboutItem
                 title={"About"}
                 content={
-                  "I'm a fullstack web developer with a passion for building websites and web apps." +
-                  "I have a knack for planning, organizing, designing, coding, problem solving and development in it's entirety." +
+                  "I'm a fullstack web developer with a passion for building websites and web apps. " +
+                  "I have a knack for planning, organizing, designing, coding, problem solving and development in it's entirety. " +
                   "Offline, I often read, go for a walk and spend time with my girlfriend, friends and family."
                 }
               />
