@@ -90,13 +90,8 @@ const About = () => {
               <div>
                 <OnTheWebItem
                   imageUrl={"/github.png"}
-                  text={"@joeri2001"}
-                  pageUrl={"https://github.com/joeri2001/"}
-                />
-                <OnTheWebItem
-                  imageUrl={"/twitter.png"}
-                  text={"@joeri2k1"}
-                  pageUrl={"https://twitter.com/joeri2k1"}
+                  text={"@csmyu"}
+                  pageUrl={"https://github.com/csmyu"}
                 />
                 <OnTheWebItem
                   imageUrl={"/linkedin.png"}

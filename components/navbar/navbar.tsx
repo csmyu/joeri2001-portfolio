@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
           <div />
           <motion.a
-            href={"https://github.com/joeri2001/"}
+            href={"https://github.com/csmyu"}
             target="_blank"
             className={
               "hover:cursor-pointer font-thin capitalize bg-color-accent p-2 rounded hover:bg-color-accent-pink"
