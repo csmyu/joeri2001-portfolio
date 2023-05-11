@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <link rel="shortcut icon" href="/icon.png" />
+        <title>joeribrinks.me</title>
       </Head>
       <Component {...pageProps} />
     </>
