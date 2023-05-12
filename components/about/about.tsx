@@ -89,14 +89,22 @@ const About = () => {
               <AboutItem title={"On the web"} />
               <div>
                 <OnTheWebItem
+                  imageUrl={"/logo.gif"}
+                  text={"SiteForge"}
+                  pageUrl={"https://siteforge.dev"}
+                  background={true}
+                />
+                <OnTheWebItem
                   imageUrl={"/github.png"}
                   text={"@joeri2001"}
                   pageUrl={"https://github.com/joeri2001"}
+                  background={false}
                 />
                 <OnTheWebItem
                   imageUrl={"/linkedin.png"}
                   text={"@joeribrinks"}
                   pageUrl={"https://www.linkedin.com/in/joeribrinks/"}
+                  background={false}
                 />
               </div>
             </div>
