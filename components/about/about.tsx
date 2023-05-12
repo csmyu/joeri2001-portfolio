@@ -78,9 +78,9 @@ const About = () => {
 
             <div className={"pb-5"}>
               <AboutItem
-                title={"I \u2665"}
+                title={"Hobbies"}
                 content={
-                  "Videogames, Art/Drawing, Videography, Movies, Manga & Anime"
+                  "Web Development, Web Design, Gaming"
                 }
               />
             </div>
