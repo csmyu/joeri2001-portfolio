@@ -62,11 +62,11 @@ const About = () => {
                   />
                   <ExperienceItems
                     year={"('22)"}
-                    text={"Worked at Zorgverkeer (via Competa)"}
+                    text={"Worked at Zorgverkeer (Frontend, via Competa)"}
                   />
                   <ExperienceItems
                     year={"('22 - '24')"}
-                    text={"Working at Inergy (via Competa)"}
+                    text={"Working at Inergy (Fullstack, via Competa)"}
                   />
                   <ExperienceItems
                     year={"('22 - present)"}
