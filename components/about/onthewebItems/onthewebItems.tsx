@@ -29,7 +29,7 @@ const OnTheWebItem = (props: Props) => {
           initial={{ scale: 1 }}
           whileHover={{ scale: 1.05 }}
         >
-          <a href={props.pageUrl}>{props.text}</a>
+          <a href={props.pageUrl} target="_blank">{props.text}</a>
         </motion.div>
       </div>
     );
@@ -55,7 +55,7 @@ const OnTheWebItem = (props: Props) => {
           initial={{ scale: 1 }}
           whileHover={{ scale: 1.05 }}
         >
-          <a href={props.pageUrl}>{props.text}</a>
+          <a href={props.pageUrl} target="_blank">{props.text}</a>
         </motion.div>
       </div>
     );
