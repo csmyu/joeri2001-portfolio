@@ -8,7 +8,7 @@ const Footer = () => {
               "flex place-content-between font-thin text-sm text-color-text-dark"
             }
           >
-            <p>&copy; 2022 Joeri Brinks. All rights reserved.</p>
+            <p>&copy; 2022 - 2024 Joeri Brinks. All rights reserved.</p>
           </div>
         </div>
       </div>

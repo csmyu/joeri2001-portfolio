@@ -61,16 +61,16 @@ const About = () => {
                     text={"Worked at Ridemi (Fullstack)"}
                   />
                   <ExperienceItems
-                    year={"('22 - present)"}
-                    text={"Working at Competa (Fullstack)"}
-                  />
-                  <ExperienceItems
                     year={"('22)"}
                     text={"Worked at Zorgverkeer (via Competa)"}
                   />
                   <ExperienceItems
-                    year={"('22 - present)"}
+                    year={"('22 - '24')"}
                     text={"Working at Inergy (via Competa)"}
+                  />
+                  <ExperienceItems
+                    year={"('22 - present)"}
+                    text={"Working at Competa (Fullstack)"}
                   />
                 </div>
               </div>
@@ -88,12 +88,6 @@ const About = () => {
             <div className={"pb-5"}>
               <AboutItem title={"On the web"} />
               <div>
-                <OnTheWebItem
-                  imageUrl={"/logo.gif"}
-                  text={"SiteForge"}
-                  pageUrl={"https://siteforge.dev"}
-                  background={true}
-                />
                 <OnTheWebItem
                   imageUrl={"/github.png"}
                   text={"@joeri2001"}
